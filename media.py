@@ -1,10 +1,20 @@
-notas = [7, 8, 6, 10, 5]
+print("digite 5 notas")
 
-s = 0
+# ao invés de ser 5 notas predefinidas, agora é possível adicionar 5 notas que desejar 
 
-for i in range(len(notas)):
-    s = s + notas[i]
+v1 = int(input(""))
+v2 = int(input(""))
+v3 = int(input(""))
+v4 = int(input(""))
+v5 = int(input(""))
 
-media = s / len(notas)
+y = [v1, v2, v3, v4, v5]
 
-print("Média final:", media)
+x = 0
+
+for i in range(len(y)):
+    x = x + y[i]
+
+z = x / len(y)
+
+print("Média final:", z)
